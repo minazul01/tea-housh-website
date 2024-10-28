@@ -4,10 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea Housh Website</title>
+    <!-- tailwind css cdn-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font cdn-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/658d90af42.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="">
     <header>
-        
+        <!-- header section start here -->
+        <section class="max-w-6xl mx-auto py-20 lg:flex justify-between">
+             <div class="lg:w-3/6 space-y-8">
+                <h1 class="text-7xl font-extrabold leading-snug">It's good <br> tea time at The Tea House</h1>
+                <p class="lg:w-3/4 text-lg font-normal text-gray-500">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="text-white h-14 bg-gradient-to-r from-red-400 to-orange-500 px-4 rounded-sm">Explore More <i class="pl-4 -rotate-45 fa-solid fa-arrow-right"></i></button>
+             </div>
+             <div class="lg:w-3/6 justify-items-center relative mt-14">
+                <div class="">
+                    <img src="./images/banner.png" alt="">
+                </div>
+                <div class=" absolute w-52 bg-white shadow-lg rounded-md p-2 top-48 left-16 lg:top-80 lg:left-28 ">
+                     <div class="flex items-center gap-3">
+                        <div><i class="fa-solid fa-star text-orange-300 text-3xl"></i></div>
+                        <div>
+                            <h3 class="text-3xl font-extrabold">5.00</h3>
+                            <p class="text-base font-semibold text-gray-400">Trust Pilot Ratings</p>
+                        </div>
+                     </div>
+                </div>
+             </div>
+        </section>
     </header>
     <main></main>
     <footer></footer>
